@@ -1,0 +1,4 @@
+To build a shared library on Linux:
+
+gcc -c -fPIC spatialfuncs_cOnly.c
+gcc spatialfuncs_cOnly.o -shared -o spatialfuncs_cOnly.so
